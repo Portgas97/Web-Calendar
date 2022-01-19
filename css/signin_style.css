@@ -1,0 +1,179 @@
+/*
+*
+*
+*   FOGLI DI STILE CSS: signin_style.css
+*
+*
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #34495e;
+}
+
+.box{
+  width: 500px;
+  padding: 20px;
+  position:relative;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.box h1{
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+  
+.box input[type = "text"], 
+.box input[type = "password"],
+.box input[type = "tel"], 
+.box input[type = "date"],
+.box input[type = "email"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 2px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 7px 5px;
+  width: 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  
+}
+
+.box input[type = "text"]:focus, 
+.box input[type = "password"]:focus,
+.box input[type = "tel"]:focus, 
+.box input[type = "date"]:focus,
+.box input[type = "email"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+.box label{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 2px auto;
+  padding: 7px 5px;
+  text-align: center;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.box input[type = "reset"]{
+  font-family: Courier, monospace, sans-serif;
+  text-transform: uppercase;
+  background-color: #2ecc71;
+  border-color: #2ecc71; /* fornisce un warning ma è preferibile per una questione stilistica */
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.special {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: Times, 'Times New Roman', serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #191919;
+}
+
+.nav-links li{
+  float: left;
+}
+
+.nav-links li:hover:not(:first-child){
+  background-color: #3498db;
+  transition: 0.25s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.nav-links li a{
+  display: block;
+  padding: 16px 16px;
+  color: #344980;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px; 
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logo{
+  color: #344980;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 19px;
+}
+
+.right{
+  float: right;
+}
+
+#page-container {
+  position: relative;
+  min-height: 150vh; 
+}
+
+#content-wrap {
+  padding-bottom: 130px;    
+}
+
+#footer {
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+  height: 150px; 
+  text-align: center;
+  color: #344980;
+  background-color: #191919;
+}
+
+footer a{
+  text-decoration: none;
+  color: #344980;
+}
+

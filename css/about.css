@@ -1,0 +1,36 @@
+/*
+*
+*
+*   FOGLI DI STILE CSS: about.css
+*
+*
+*/
+
+body  {
+  background-image: url("../immagini/unipi.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+div {
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  width: 900px;
+  border: 1px solid white;
+  opacity: 0.95;
+  color: white;
+  background-color: #191919;
+}
+
+p {
+  font-family: garamond, serif;
+}
+
+.great {
+  font-size: 35px;
+}
+

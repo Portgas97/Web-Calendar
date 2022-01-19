@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ORGANIZER, calendar, HTML, CSS, JavaScript, PHP, SQL">
+    <meta name="description" content="Calendario, blocco note e reminder per gestire gli impegni, progetto del corso Progettazione Web, UNIPI">
+    <meta name="author" content="Francesco Venturini">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ORGANIZAER </title>
+    <link rel="stylesheet" type="text/css" href="index_style.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css"> 
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <p class="great">ORGANIZER</p>
+
+      <p> 
+
+        <br>
+        Questo sito &egrave; stato implementato da Francesco Venturini come progetto per l'esame di <br>
+        Progettazione Web del corso di Laurea in Ingegneria Informatica <br>
+        presso l'Universit&agrave; di Pisa. <br>
+        <br>
+        <br>
+        Le funzionalit&agrave; offerte permettono ai singoli utenti di organizzare i loro eventi in maniera <br>
+        ordinata e comprensibile, come in un normale calendario cartaceo. <br>
+        <br>
+        <br>
+        L'utente, dopo aver visualizzato la pagina principale iniziale, index.html, potr&agrave; <br>
+        registrarsi presso la form di signin raggiungibile<br>
+        mediante l'apposito bottone posto nel barra di navigazione orizzonale della pagina stessa. <br>
+        <br>
+        <br>
+        I campi che &egrave; possibile riempire sono: <br>
+        Nome, Cognome, e-mail, Numero di Telefono, Compleanno, Username e Password <br>
+        (di cui obbligatori: Nome, Cognome, e-mail, nome utente e password). <br>
+        <br> <br>
+        Una volta registrato l'utente sar&agrave; in grado di usufruire dei servizi offerti <br>
+        ogniqualvolta acceder&agrave; al sito tramite l'apposita <br>
+        form di login che richieder&agrave; le informazioni relative al nome utente e la password <br>
+        scelte durante la fase di registrazione. <br>
+        <br>
+        <br>
+        Una volta eseguito il login la pagina mostrata &egrave; quella del calendario. <br>
+        Tramite il link 'Logout' in alto a destra si potr&agrave; facilmente uscire dal sito e tornare <br>
+        alla pagina principale <br>
+        <br>
+        <br>
+        Come facilmente deducibile, l'utente &egrave; in grado di selezionare, <br>
+        tramite il men&ugrave; a cascata posto nella parte superiore della pagina, <br>
+        una fra quattro modalit&agrave; di visualizzazione, quali: Giorno, Settimana, Mese e Anno. 
+        <br>
+        <br>
+        <br>
+        Come indicato dal nome, la prima opzione permette di scorrere attraverso il calendario <br>
+        in una modalit&agrave; di visualizzazione che mostra un singolo giorno per volta,<br>
+        la seconda modalit&agrave; invece mostra un'intera settimana, la modalit&agrave; "Mese" mostra <br>
+        un intero mese alla volta e, infine, la modalit&agrave; "Anno" mostra gli anni per intero. <br>
+        <br>
+        <br>
+        Ogni modalit&agrave; sfrutta un box (in alto a sinistra) per mostrare le informazioni relative al mese <br>
+        e all'anno corrente, oltre che un box "To Current Date" che permette <br>
+        di ritornare alla visualizzazione selezionata, in relazione con la data odierna. <br>
+        <br>
+        <br>
+        Per mezzo delle frecce ' &lt; ' e ' &gt; ' &egrave; possibile, in ognuna delle modalit&agrave; sopra citate, <br>
+        scorrere attraverso il calendario in modo da visualizzare i possibili <br>
+        giorni e le informazioni eventualmente associate. <br>
+        <br>
+        <br>
+        Per mezzo del bottone "Inserisci Eventi" &egrave; possibile, per l'utente, associare <br>
+        un evento ad una certa data, aggiungendo una descrizione per tale evento. <br>
+        L'evento verr&agrave; visualizzato nel calendario nella casella rispettiva alla data selezionata, <br>
+        in ognuna delle modalit&agrave; sopra descritte. <br>
+        <br>
+        <br>
+        Similmente, potr&agrave; essere eseguita l'operazione di eliminazione di un evento per mezzo <br>
+        del bottone 'Elimina'. Quest'ultima operazione può esser svolta anche in un altro modo: <br>
+        cliccando sull'evento mostrato nel calendario (non nella visualizzazione annuale che non <br>
+        permette di discriminare gli eventi) verranno mostrate sequenzialmente degli alert box. <br>
+        <br>
+        <br>
+        Essi richiederanno all'utente l'operazione che vuole svolgere. Rispettivamente, prima <br>
+        viene richiesto se si vuole modificare la descrizione di un evento. Il click sul bottone 'OK' <br>
+        scatener&agrave; l'apertura di una form intuitiva per l'inserimento della nuova descrizione, <br>
+        da cui si può facilmente uscire per mezzo del bottone 'Close' se non si desidera proseguire. <br>
+        <br>
+        <br>
+        Successivamente viene mostrato invece un altro alert che richiede all'utente se vuole eliminare <br>
+        l'evento con il quale ha interagito. Per annullare e proseguire con la navigazione &egrave; sufficiente <br>
+        cliccare su 'Annulla'.
+        <br>
+        <br>
+        Gli eventi selezionati sono: quelli inseriti dall'utente nel corso dell'interazione con il sito <br>
+        (azzurri), le principali festività nazionali (solamente per l'anno in corso e alcune per <br>
+        gli anni vicini, colorati di verde) e, infine, se immesso in fase di registrazione, <br>
+        il proprio compleanno (giallo).
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        NOTE <br>
+        <br>
+        Per la versione 2.0 da sviluppare in futuro le idee sono relative a: <br>
+        <br>
+        - Poter cambiare la password degli utenti per mezzo di un meccanismo sicuro che si poggia <br>
+        su tecniche di security come two factor authentication e comunicazioni cifrate <br>
+        <br>
+        - La possibilità di poter associare un colore agli eventi <br>
+        <br>
+        - La possibilità di inserire eventi ricorrenti, come un orario per la palestra <br>
+        <br>
+        - La possibilità di visualizzare eventi interessanti per l'utente, come ad esempio <br>
+        gli eventi relativi allo sport di cui è appassionato, ricavati da Internet e non inseriti manualmente <br>
+        <br>
+        - La visualizzazione avanzata degli eventi nella modalità giornaliera in base a delle fasce orarie <br>
+        <br>
+        - La possibilità di condividere eventi con altri utenti <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </p>
+
+    </div>
+      
+  </body>
+</html>

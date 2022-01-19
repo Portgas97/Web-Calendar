@@ -1,0 +1,175 @@
+/*
+*
+*
+*   FOGLI DI STILE CSS: index_style.css
+*
+*
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------- SEZIONE NAV ------------------- */
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #191919;
+}
+
+.right{
+  float: right;
+}
+
+.nav-links li{
+  float: left;
+}
+
+.nav-links li:hover, #modality_select {
+  cursor: pointer; 
+}
+
+.nav-links li:hover:not(:first-child)  {
+  background-color: #3498db;
+  transition: 0.25s;
+  border-radius: 20px;
+}
+
+#no_transition  {
+  background-color: #191919;
+  transition: 0s;
+  border-radius: 0px;
+  cursor: pointer; 
+}
+
+.nav-links li a{
+  display: block;
+  padding: 16px 16px;
+  color: #344980;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px; 
+  font-weight: bold;
+  font-size: 17px;
+  text-shadow: 0.5px 0.5px 0.5px #ababab;
+}
+
+.logo{
+  color: #344980;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #0073e6, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6;
+}
+
+/* ------------------- BODY ------------------- */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #34495e;
+}
+
+/* ------------------- FOOTER ------------------- */
+#page-container {
+  position: relative;
+  min-height: 2400px; /* dimensiono rispetto alla finestra, 100 per vedere il footer nella viewport */
+}
+
+#content-wrap {
+  padding-bottom: 150px;    /* Atezza del footer */
+}
+
+#footer {
+  position: absolute; /* importante con bottom 0 rispetto a page-container; */
+  bottom: 0;
+  width: 100%;
+  height: 150px; /* Altezza del footer */
+  text-align: center;
+  color: #344980;
+  background-color: #191919;
+}
+
+footer a{
+  text-decoration: none;
+  color: #344980;
+}
+
+#footer > p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+/* ------------------- IMMAGINI ------------------- */
+
+.organizer {
+  font-size: 85px;
+  font-family: monospace;
+  color: rgb(240,239,239);
+  text-align: center;
+  text-shadow: 3px 3px 3px #191919;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.images {
+  border-radius: 4px;
+  height: 450px;
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 5px 10px #191919;
+}
+
+.images img {
+  transition: transform 1s, filter 0.5s ease-in-out;
+  filter: brightness(80%) blur(2px) grayscale(20%);
+}
+
+.images:hover img {
+  filter: brightness(100%) blur(0px) grayscale(0);
+  transform: scale(1.2) rotate(-1deg);
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.p_style {
+  color: rgb(240,239,239);
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.presentation {
+  width: 400px;
+  height: 450px;
+  background-color: #191919;
+  overflow: hidden;
+  margin-top: 20px;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-shadow: 5px 10px #131212;
+}
+
+.text_center {
+  text-align: center;
+  font-size: 30px;
+}

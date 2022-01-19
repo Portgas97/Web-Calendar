@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Login Form</title>
+    <link rel="stylesheet" type="text/css" href="./css/login_style.css">
+    <script src="./javascript/login.js"></script>
+  </head>
+
+  <body>
+
+    <div id="page-container"> 
+      <div id="content-wrap">
+        <ul class="nav-links">
+          <li class="logo"> Organizer </li>
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="about.html">About</a> </li>
+          <li style="float:right"> <a class="right" href="signin.php">Sign in</a> </li>
+        </ul>
+        
+          
+        <div id="visual_effect">
+
+        </div>
+        
+        <form class="box" action="./php/auth_login.php" method="post" enctype="application/x-www-form-urlencoded"> 
+            <h1> Login </h1>
+            <input type="text" name="username" id="username" placeholder="Username" maxlength="100" autocomplete="off" required>
+            <input type="password" name="password" id="password" minlength="8" placeholder="Password" maxlength="100" required>
+            <input type="submit" name="submit" value="Login" onclick="validate()">
+        </form>
+    
+      </div>
+
+      <footer id="footer">
+        <p>Author: Francesco Venturini</p>
+        <p> Progetto per il corso di Progettazione Web</p>
+        <p> Universit&#224; di Pisa</p>
+        <p><a href="mailto:f.venturini12@studenti.unipi.it">send mail: f.venturini12@studenti.unipi.it</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
